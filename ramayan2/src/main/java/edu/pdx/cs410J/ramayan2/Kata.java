@@ -50,6 +50,8 @@ public class Kata {
           case "SQRT":
             res = (int) Math.sqrt(myStack.pop());
             break;
+          case  "default":
+            break;
         }
       myStack.push(res);
       }
