@@ -21,7 +21,7 @@ class KataIT extends InvokeMainTestCase {
     InvokeMainTestCase.MainMethodResult result = invokeMain(Kata.class);
     assertThat(result.getTextWrittenToStandardError(), containsString("Missing command line arguments"));
   }
-
+  
   @Test
   void simplestCaseMultiplication() {
 
